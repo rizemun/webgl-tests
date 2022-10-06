@@ -1,0 +1,18 @@
+.editor {
+  border: 2px solid darkblue;
+
+  display: grid;
+  place-items: center;
+
+  &__input {
+    font-size: 1.2em;
+    border-radius: .5em;
+    padding: .5em;
+  }
+
+  &__run {
+    font-size: 1.2em;
+    padding: .5em 2em;
+  }
+}
+
